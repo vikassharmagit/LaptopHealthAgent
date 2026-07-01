@@ -3333,3 +3333,318 @@
 {"timestamp": "2026-06-29T14:37:11.616077+00:00", "event": "performance_sample", "payload": {"cpu_percent": 63.9, "memory_percent": 93.0, "process_count": 15}}
 {"timestamp": "2026-06-29T14:37:16.710447+00:00", "event": "performance_sample", "payload": {"cpu_percent": 86.3, "memory_percent": 94.3, "process_count": 15}}
 {"timestamp": "2026-06-29T14:38:57.540996+00:00", "event": "performance_sample", "payload": {"cpu_percent": 56.6, "memory_percent": 93.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:29:16.874522+00:00", "event": "health_scan_background_started", "payload": {"reason": "no_cache"}}
+{"timestamp": "2026-07-01T11:29:25.408333+00:00", "event": "health_scan_quick_returned", "payload": {"reason": "no_cache"}}
+{"timestamp": "2026-07-01T11:29:28.190101+00:00", "event": "performance_sample", "payload": {"cpu_percent": 65.4, "memory_percent": 91.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:29:31.673627+00:00", "event": "performance_sample", "payload": {"cpu_percent": 47.5, "memory_percent": 91.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:29:35.595463+00:00", "event": "performance_sample", "payload": {"cpu_percent": 28.0, "memory_percent": 91.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:29:39.170154+00:00", "event": "performance_sample", "payload": {"cpu_percent": 50.0, "memory_percent": 91.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:29:42.847103+00:00", "event": "performance_sample", "payload": {"cpu_percent": 26.2, "memory_percent": 91.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:29:48.299012+00:00", "event": "health_scan_quick_returned", "payload": {"reason": "no_cache"}}
+{"timestamp": "2026-07-01T11:29:49.258018+00:00", "event": "performance_sample", "payload": {"cpu_percent": 49.4, "memory_percent": 91.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:29:53.106585+00:00", "event": "performance_sample", "payload": {"cpu_percent": 31.1, "memory_percent": 91.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:29:58.733856+00:00", "event": "performance_sample", "payload": {"cpu_percent": 31.2, "memory_percent": 91.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:02.113045+00:00", "event": "health_scan_quick_returned", "payload": {"reason": "no_cache"}}
+{"timestamp": "2026-07-01T11:30:04.869048+00:00", "event": "performance_sample", "payload": {"cpu_percent": 25.0, "memory_percent": 91.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:08.532083+00:00", "event": "performance_sample", "payload": {"cpu_percent": 33.3, "memory_percent": 92.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:12.131066+00:00", "event": "performance_sample", "payload": {"cpu_percent": 23.8, "memory_percent": 92.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:15.817028+00:00", "event": "performance_sample", "payload": {"cpu_percent": 21.2, "memory_percent": 92.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:19.438624+00:00", "event": "performance_sample", "payload": {"cpu_percent": 61.3, "memory_percent": 93.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:19.551469+00:00", "event": "process_terminate_failed", "payload": {"pid": 3224, "name": "MemCompression", "error": "(pid=3224, name='MemCompression')"}}
+{"timestamp": "2026-07-01T11:30:27.941522+00:00", "event": "health_scan_quick_returned", "payload": {"reason": "no_cache"}}
+{"timestamp": "2026-07-01T11:30:28.622746+00:00", "event": "performance_sample", "payload": {"cpu_percent": 63.9, "memory_percent": 91.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:32.063825+00:00", "event": "performance_sample", "payload": {"cpu_percent": 34.6, "memory_percent": 85.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:35.715197+00:00", "event": "performance_sample", "payload": {"cpu_percent": 29.2, "memory_percent": 85.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:37.751881+00:00", "event": "process_terminate_failed", "payload": {"pid": 5604, "name": "MsMpEng.exe", "error": "(pid=5604, name='MsMpEng.exe')"}}
+{"timestamp": "2026-07-01T11:30:39.148372+00:00", "event": "performance_sample", "payload": {"cpu_percent": 53.8, "memory_percent": 85.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:44.378439+00:00", "event": "performance_sample", "payload": {"cpu_percent": 19.5, "memory_percent": 86.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:46.030473+00:00", "event": "health_scan_quick_returned", "payload": {"reason": "no_cache"}}
+{"timestamp": "2026-07-01T11:30:49.360216+00:00", "event": "performance_sample", "payload": {"cpu_percent": 13.2, "memory_percent": 85.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:53.137762+00:00", "event": "performance_sample", "payload": {"cpu_percent": 83.6, "memory_percent": 85.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:30:53.833257+00:00", "event": "system_tool_opened", "payload": {"tool": "performance"}}
+{"timestamp": "2026-07-01T11:30:57.434639+00:00", "event": "performance_sample", "payload": {"cpu_percent": 87.5, "memory_percent": 87.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:01.520086+00:00", "event": "performance_sample", "payload": {"cpu_percent": 53.1, "memory_percent": 89.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:05.341734+00:00", "event": "performance_sample", "payload": {"cpu_percent": 30.6, "memory_percent": 85.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:09.042253+00:00", "event": "performance_sample", "payload": {"cpu_percent": 14.7, "memory_percent": 87.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:12.693186+00:00", "event": "performance_sample", "payload": {"cpu_percent": 58.8, "memory_percent": 86.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:16.477823+00:00", "event": "performance_sample", "payload": {"cpu_percent": 82.4, "memory_percent": 87.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:20.525096+00:00", "event": "performance_sample", "payload": {"cpu_percent": 65.8, "memory_percent": 86.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:24.289328+00:00", "event": "performance_sample", "payload": {"cpu_percent": 37.5, "memory_percent": 86.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:25.842003+00:00", "event": "process_terminate_failed", "payload": {"pid": 5604, "name": "MsMpEng.exe", "error": "(pid=5604, name='MsMpEng.exe')"}}
+{"timestamp": "2026-07-01T11:31:28.655814+00:00", "event": "health_scan", "payload": {"recommendation_count": 18, "disk_count": 2, "folder_count": 3, "health_score": 100, "elapsed_ms": 131816}}
+{"timestamp": "2026-07-01T11:31:28.708970+00:00", "event": "performance_sample", "payload": {"cpu_percent": 20.0, "memory_percent": 83.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:32.345067+00:00", "event": "performance_sample", "payload": {"cpu_percent": 10.7, "memory_percent": 84.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:36.243862+00:00", "event": "performance_sample", "payload": {"cpu_percent": 42.5, "memory_percent": 84.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:39.649750+00:00", "event": "performance_sample", "payload": {"cpu_percent": 14.9, "memory_percent": 84.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:43.322766+00:00", "event": "performance_sample", "payload": {"cpu_percent": 11.8, "memory_percent": 84.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:46.728187+00:00", "event": "performance_sample", "payload": {"cpu_percent": 31.2, "memory_percent": 85.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:50.866233+00:00", "event": "performance_sample", "payload": {"cpu_percent": 60.0, "memory_percent": 85.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:55.156850+00:00", "event": "performance_sample", "payload": {"cpu_percent": 46.2, "memory_percent": 89.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:31:59.088623+00:00", "event": "performance_sample", "payload": {"cpu_percent": 20.5, "memory_percent": 88.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:02.936628+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.1, "memory_percent": 89.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:06.463066+00:00", "event": "performance_sample", "payload": {"cpu_percent": 72.4, "memory_percent": 89.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:10.299110+00:00", "event": "performance_sample", "payload": {"cpu_percent": 28.4, "memory_percent": 88.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:14.101134+00:00", "event": "performance_sample", "payload": {"cpu_percent": 22.0, "memory_percent": 90.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:17.835264+00:00", "event": "performance_sample", "payload": {"cpu_percent": 33.3, "memory_percent": 90.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:21.258954+00:00", "event": "performance_sample", "payload": {"cpu_percent": 30.3, "memory_percent": 90.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:25.104855+00:00", "event": "performance_sample", "payload": {"cpu_percent": 36.4, "memory_percent": 90.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:28.901102+00:00", "event": "performance_sample", "payload": {"cpu_percent": 19.7, "memory_percent": 85.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:32.470584+00:00", "event": "performance_sample", "payload": {"cpu_percent": 5.6, "memory_percent": 86.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:35.961567+00:00", "event": "performance_sample", "payload": {"cpu_percent": 0.0, "memory_percent": 86.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:39.166997+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.7, "memory_percent": 86.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:42.611891+00:00", "event": "performance_sample", "payload": {"cpu_percent": 9.1, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:45.937645+00:00", "event": "performance_sample", "payload": {"cpu_percent": 26.2, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:49.191786+00:00", "event": "performance_sample", "payload": {"cpu_percent": 20.0, "memory_percent": 86.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:52.733234+00:00", "event": "performance_sample", "payload": {"cpu_percent": 14.9, "memory_percent": 86.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:56.178614+00:00", "event": "performance_sample", "payload": {"cpu_percent": 11.7, "memory_percent": 86.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:32:59.610269+00:00", "event": "performance_sample", "payload": {"cpu_percent": 35.9, "memory_percent": 86.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:03.209672+00:00", "event": "performance_sample", "payload": {"cpu_percent": 13.3, "memory_percent": 86.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:07.401768+00:00", "event": "performance_sample", "payload": {"cpu_percent": 6.9, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:11.412759+00:00", "event": "performance_sample", "payload": {"cpu_percent": 26.5, "memory_percent": 89.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:14.983593+00:00", "event": "performance_sample", "payload": {"cpu_percent": 6.9, "memory_percent": 90.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:19.487327+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.5, "memory_percent": 90.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:23.404252+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.5, "memory_percent": 86.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:27.288671+00:00", "event": "performance_sample", "payload": {"cpu_percent": 33.3, "memory_percent": 86.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:30.970008+00:00", "event": "performance_sample", "payload": {"cpu_percent": 0.0, "memory_percent": 85.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:35.189742+00:00", "event": "performance_sample", "payload": {"cpu_percent": 38.3, "memory_percent": 85.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:39.327821+00:00", "event": "performance_sample", "payload": {"cpu_percent": 24.7, "memory_percent": 84.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:43.236688+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.5, "memory_percent": 82.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:47.087804+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.8, "memory_percent": 82.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:51.004628+00:00", "event": "performance_sample", "payload": {"cpu_percent": 0.0, "memory_percent": 84.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:55.023927+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.2, "memory_percent": 84.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:33:59.408880+00:00", "event": "performance_sample", "payload": {"cpu_percent": 63.4, "memory_percent": 84.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:03.305231+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.9, "memory_percent": 84.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:06.853742+00:00", "event": "performance_sample", "payload": {"cpu_percent": 7.6, "memory_percent": 84.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:11.448295+00:00", "event": "performance_sample", "payload": {"cpu_percent": 8.3, "memory_percent": 84.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:15.606446+00:00", "event": "performance_sample", "payload": {"cpu_percent": 10.1, "memory_percent": 87.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:19.610319+00:00", "event": "performance_sample", "payload": {"cpu_percent": 0.0, "memory_percent": 87.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:23.451823+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.9, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:27.840488+00:00", "event": "performance_sample", "payload": {"cpu_percent": 28.0, "memory_percent": 86.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:31.733811+00:00", "event": "performance_sample", "payload": {"cpu_percent": 0.0, "memory_percent": 84.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:35.276927+00:00", "event": "performance_sample", "payload": {"cpu_percent": 3.9, "memory_percent": 85.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:39.645692+00:00", "event": "performance_sample", "payload": {"cpu_percent": 15.0, "memory_percent": 86.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:43.400529+00:00", "event": "performance_sample", "payload": {"cpu_percent": 1.4, "memory_percent": 86.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:47.586888+00:00", "event": "performance_sample", "payload": {"cpu_percent": 0.0, "memory_percent": 85.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:51.171447+00:00", "event": "performance_sample", "payload": {"cpu_percent": 8.0, "memory_percent": 85.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:34:54.930742+00:00", "event": "performance_sample", "payload": {"cpu_percent": 21.1, "memory_percent": 85.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:01.300457+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.2, "memory_percent": 88.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:04.959776+00:00", "event": "performance_sample", "payload": {"cpu_percent": 35.0, "memory_percent": 88.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:08.683569+00:00", "event": "performance_sample", "payload": {"cpu_percent": 78.4, "memory_percent": 88.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:13.413615+00:00", "event": "performance_sample", "payload": {"cpu_percent": 10.0, "memory_percent": 88.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:16.821232+00:00", "event": "performance_sample", "payload": {"cpu_percent": 50.6, "memory_percent": 88.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:21.518286+00:00", "event": "performance_sample", "payload": {"cpu_percent": 72.8, "memory_percent": 88.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:25.566938+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.5, "memory_percent": 90.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:30.046541+00:00", "event": "performance_sample", "payload": {"cpu_percent": 72.8, "memory_percent": 91.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:34.305409+00:00", "event": "performance_sample", "payload": {"cpu_percent": 19.8, "memory_percent": 91.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:38.527338+00:00", "event": "performance_sample", "payload": {"cpu_percent": 19.2, "memory_percent": 90.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:42.610381+00:00", "event": "performance_sample", "payload": {"cpu_percent": 18.5, "memory_percent": 90.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:46.482772+00:00", "event": "performance_sample", "payload": {"cpu_percent": 37.3, "memory_percent": 89.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:51.346996+00:00", "event": "performance_sample", "payload": {"cpu_percent": 83.8, "memory_percent": 88.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:56.059236+00:00", "event": "performance_sample", "payload": {"cpu_percent": 41.7, "memory_percent": 91.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:35:59.320471+00:00", "event": "performance_sample", "payload": {"cpu_percent": 37.5, "memory_percent": 89.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:02.397214+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.5, "memory_percent": 86.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:05.324224+00:00", "event": "performance_sample", "payload": {"cpu_percent": 0.0, "memory_percent": 84.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:08.525978+00:00", "event": "performance_sample", "payload": {"cpu_percent": 14.5, "memory_percent": 83.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:11.320635+00:00", "event": "performance_sample", "payload": {"cpu_percent": 35.0, "memory_percent": 84.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:14.754888+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.5, "memory_percent": 84.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:18.633205+00:00", "event": "performance_sample", "payload": {"cpu_percent": 48.8, "memory_percent": 84.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:22.727640+00:00", "event": "performance_sample", "payload": {"cpu_percent": 11.5, "memory_percent": 84.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:26.553356+00:00", "event": "performance_sample", "payload": {"cpu_percent": 30.0, "memory_percent": 85.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:30.699765+00:00", "event": "performance_sample", "payload": {"cpu_percent": 79.5, "memory_percent": 85.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:36.016367+00:00", "event": "performance_sample", "payload": {"cpu_percent": 40.5, "memory_percent": 86.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:42.260938+00:00", "event": "performance_sample", "payload": {"cpu_percent": 47.2, "memory_percent": 84.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:46.514430+00:00", "event": "performance_sample", "payload": {"cpu_percent": 63.0, "memory_percent": 85.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:51.293378+00:00", "event": "performance_sample", "payload": {"cpu_percent": 37.0, "memory_percent": 86.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:55.279842+00:00", "event": "performance_sample", "payload": {"cpu_percent": 71.2, "memory_percent": 89.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:36:59.854111+00:00", "event": "performance_sample", "payload": {"cpu_percent": 23.3, "memory_percent": 89.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:04.410742+00:00", "event": "performance_sample", "payload": {"cpu_percent": 11.2, "memory_percent": 90.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:08.675312+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.7, "memory_percent": 89.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:12.761381+00:00", "event": "performance_sample", "payload": {"cpu_percent": 14.3, "memory_percent": 89.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:17.676197+00:00", "event": "performance_sample", "payload": {"cpu_percent": 25.9, "memory_percent": 89.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:21.963644+00:00", "event": "performance_sample", "payload": {"cpu_percent": 15.3, "memory_percent": 89.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:25.733471+00:00", "event": "performance_sample", "payload": {"cpu_percent": 36.7, "memory_percent": 84.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:29.875007+00:00", "event": "performance_sample", "payload": {"cpu_percent": 14.5, "memory_percent": 84.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:33.900367+00:00", "event": "performance_sample", "payload": {"cpu_percent": 79.7, "memory_percent": 85.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:38.279827+00:00", "event": "performance_sample", "payload": {"cpu_percent": 100.0, "memory_percent": 84.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:42.534436+00:00", "event": "performance_sample", "payload": {"cpu_percent": 38.0, "memory_percent": 86.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:37:49.480186+00:00", "event": "performance_sample", "payload": {"cpu_percent": 17.8, "memory_percent": 90.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:38:52.191279+00:00", "event": "performance_sample", "payload": {"cpu_percent": 72.8, "memory_percent": 85.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:39:49.877873+00:00", "event": "performance_sample", "payload": {"cpu_percent": 46.9, "memory_percent": 85.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:40:49.146788+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.2, "memory_percent": 86.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:41:49.978599+00:00", "event": "performance_sample", "payload": {"cpu_percent": 22.4, "memory_percent": 88.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:42:48.970817+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.5, "memory_percent": 89.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:04.281243+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.5, "memory_percent": 86.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:07.125299+00:00", "event": "health_scan_background_started", "payload": {"reason": "cache_available"}}
+{"timestamp": "2026-07-01T11:43:10.187619+00:00", "event": "performance_sample", "payload": {"cpu_percent": 84.1, "memory_percent": 86.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:15.984493+00:00", "event": "file_revealed", "payload": {"target": "C:\\Users\\vikas\\Downloads\\VID_20191214_222622.mp4", "mode": "select"}}
+{"timestamp": "2026-07-01T11:43:16.105385+00:00", "event": "performance_sample", "payload": {"cpu_percent": 58.9, "memory_percent": 86.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:20.808716+00:00", "event": "performance_sample", "payload": {"cpu_percent": 34.7, "memory_percent": 85.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:24.659493+00:00", "event": "performance_sample", "payload": {"cpu_percent": 36.6, "memory_percent": 89.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:28.019736+00:00", "event": "performance_sample", "payload": {"cpu_percent": 28.4, "memory_percent": 90.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:31.960865+00:00", "event": "performance_sample", "payload": {"cpu_percent": 25.9, "memory_percent": 90.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:36.016281+00:00", "event": "performance_sample", "payload": {"cpu_percent": 61.0, "memory_percent": 89.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:39.721668+00:00", "event": "performance_sample", "payload": {"cpu_percent": 26.2, "memory_percent": 88.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:43.413143+00:00", "event": "performance_sample", "payload": {"cpu_percent": 34.1, "memory_percent": 89.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:47.350774+00:00", "event": "performance_sample", "payload": {"cpu_percent": 59.3, "memory_percent": 89.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:51.038463+00:00", "event": "performance_sample", "payload": {"cpu_percent": 28.0, "memory_percent": 89.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:54.875985+00:00", "event": "performance_sample", "payload": {"cpu_percent": 49.4, "memory_percent": 89.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:43:58.857153+00:00", "event": "performance_sample", "payload": {"cpu_percent": 58.9, "memory_percent": 89.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:02.364336+00:00", "event": "performance_sample", "payload": {"cpu_percent": 67.5, "memory_percent": 89.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:06.304053+00:00", "event": "performance_sample", "payload": {"cpu_percent": 60.2, "memory_percent": 88.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:11.054827+00:00", "event": "performance_sample", "payload": {"cpu_percent": 37.5, "memory_percent": 88.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:14.993593+00:00", "event": "performance_sample", "payload": {"cpu_percent": 63.8, "memory_percent": 89.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:18.640843+00:00", "event": "performance_sample", "payload": {"cpu_percent": 49.4, "memory_percent": 88.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:22.647000+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.0, "memory_percent": 84.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:26.763127+00:00", "event": "performance_sample", "payload": {"cpu_percent": 28.8, "memory_percent": 83.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:31.099065+00:00", "event": "performance_sample", "payload": {"cpu_percent": 63.7, "memory_percent": 83.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:34.885848+00:00", "event": "performance_sample", "payload": {"cpu_percent": 76.7, "memory_percent": 85.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:35.074339+00:00", "event": "health_scan", "payload": {"recommendation_count": 19, "disk_count": 2, "folder_count": 3, "health_score": 100, "elapsed_ms": 88022}}
+{"timestamp": "2026-07-01T11:44:38.412190+00:00", "event": "performance_sample", "payload": {"cpu_percent": 19.8, "memory_percent": 86.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:41.983279+00:00", "event": "performance_sample", "payload": {"cpu_percent": 8.3, "memory_percent": 87.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:45.708946+00:00", "event": "performance_sample", "payload": {"cpu_percent": 22.5, "memory_percent": 86.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:50.483783+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.1, "memory_percent": 86.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:53.966939+00:00", "event": "system_tool_open_blocked", "payload": {"tool": "device_manager"}}
+{"timestamp": "2026-07-01T11:44:54.131647+00:00", "event": "performance_sample", "payload": {"cpu_percent": 64.6, "memory_percent": 84.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:44:57.585665+00:00", "event": "system_tool_open_blocked", "payload": {"tool": "device_manager"}}
+{"timestamp": "2026-07-01T11:45:00.114438+00:00", "event": "performance_sample", "payload": {"cpu_percent": 46.2, "memory_percent": 88.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:04.468148+00:00", "event": "performance_sample", "payload": {"cpu_percent": 18.8, "memory_percent": 89.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:04.680229+00:00", "event": "system_tool_open_blocked", "payload": {"tool": "installed_apps"}}
+{"timestamp": "2026-07-01T11:45:08.442164+00:00", "event": "performance_sample", "payload": {"cpu_percent": 19.0, "memory_percent": 90.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:12.824098+00:00", "event": "performance_sample", "payload": {"cpu_percent": 26.0, "memory_percent": 90.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:17.316290+00:00", "event": "performance_sample", "payload": {"cpu_percent": 70.0, "memory_percent": 91.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:22.746895+00:00", "event": "health_scan_background_started", "payload": {"reason": "cache_available"}}
+{"timestamp": "2026-07-01T11:45:28.407752+00:00", "event": "health_scan_cache_returned", "payload": {"reason": "scan_already_running"}}
+{"timestamp": "2026-07-01T11:45:35.489708+00:00", "event": "performance_sample", "payload": {"cpu_percent": 55.0, "memory_percent": 93.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:39.920586+00:00", "event": "performance_sample", "payload": {"cpu_percent": 60.3, "memory_percent": 85.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:43.990939+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.1, "memory_percent": 86.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:47.814054+00:00", "event": "performance_sample", "payload": {"cpu_percent": 51.2, "memory_percent": 87.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:51.968859+00:00", "event": "performance_sample", "payload": {"cpu_percent": 41.5, "memory_percent": 87.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:56.131133+00:00", "event": "performance_sample", "payload": {"cpu_percent": 65.0, "memory_percent": 85.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:45:59.630098+00:00", "event": "performance_sample", "payload": {"cpu_percent": 76.2, "memory_percent": 88.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:03.267917+00:00", "event": "performance_sample", "payload": {"cpu_percent": 25.9, "memory_percent": 86.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:07.321003+00:00", "event": "performance_sample", "payload": {"cpu_percent": 61.3, "memory_percent": 86.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:11.559278+00:00", "event": "performance_sample", "payload": {"cpu_percent": 87.7, "memory_percent": 86.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:15.584650+00:00", "event": "performance_sample", "payload": {"cpu_percent": 73.2, "memory_percent": 87.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:19.614341+00:00", "event": "performance_sample", "payload": {"cpu_percent": 86.2, "memory_percent": 86.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:20.255696+00:00", "event": "startup_disabled", "payload": {"name": "Teams", "success": true}}
+{"timestamp": "2026-07-01T11:46:22.991366+00:00", "event": "health_scan_cache_returned", "payload": {"reason": "scan_already_running"}}
+{"timestamp": "2026-07-01T11:46:24.550565+00:00", "event": "performance_sample", "payload": {"cpu_percent": 64.6, "memory_percent": 88.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:28.727866+00:00", "event": "performance_sample", "payload": {"cpu_percent": 49.4, "memory_percent": 88.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:32.626062+00:00", "event": "performance_sample", "payload": {"cpu_percent": 47.5, "memory_percent": 89.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:36.178589+00:00", "event": "performance_sample", "payload": {"cpu_percent": 23.5, "memory_percent": 88.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:39.975571+00:00", "event": "performance_sample", "payload": {"cpu_percent": 36.2, "memory_percent": 87.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:43.576236+00:00", "event": "performance_sample", "payload": {"cpu_percent": 26.4, "memory_percent": 87.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:47.133483+00:00", "event": "performance_sample", "payload": {"cpu_percent": 33.8, "memory_percent": 87.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:51.050766+00:00", "event": "performance_sample", "payload": {"cpu_percent": 36.1, "memory_percent": 87.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:54.845263+00:00", "event": "performance_sample", "payload": {"cpu_percent": 54.9, "memory_percent": 86.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:46:59.542487+00:00", "event": "performance_sample", "payload": {"cpu_percent": 98.6, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:03.709097+00:00", "event": "performance_sample", "payload": {"cpu_percent": 46.3, "memory_percent": 89.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:07.992874+00:00", "event": "health_scan", "payload": {"recommendation_count": 20, "disk_count": 2, "folder_count": 3, "health_score": 100, "elapsed_ms": 105316}}
+{"timestamp": "2026-07-01T11:47:08.124647+00:00", "event": "performance_sample", "payload": {"cpu_percent": 69.2, "memory_percent": 86.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:11.623427+00:00", "event": "performance_sample", "payload": {"cpu_percent": 3.2, "memory_percent": 86.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:14.926732+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.5, "memory_percent": 86.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:18.725131+00:00", "event": "performance_sample", "payload": {"cpu_percent": 5.0, "memory_percent": 86.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:22.722523+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.0, "memory_percent": 87.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:26.716125+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.0, "memory_percent": 87.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:30.941591+00:00", "event": "performance_sample", "payload": {"cpu_percent": 1.2, "memory_percent": 87.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:34.497743+00:00", "event": "performance_sample", "payload": {"cpu_percent": 5.5, "memory_percent": 87.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:38.658153+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.7, "memory_percent": 86.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:42.810146+00:00", "event": "performance_sample", "payload": {"cpu_percent": 37.3, "memory_percent": 85.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:45.921796+00:00", "event": "file_revealed", "payload": {"target": "C:\\Users\\vikas\\OneDrive\\Documents\\LaptopHealthAgent\\data\\battery-report.html", "mode": "select"}}
+{"timestamp": "2026-07-01T11:47:47.360993+00:00", "event": "performance_sample", "payload": {"cpu_percent": 64.2, "memory_percent": 86.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:51.180401+00:00", "event": "performance_sample", "payload": {"cpu_percent": 3.8, "memory_percent": 89.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:55.231327+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.7, "memory_percent": 89.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:47:58.720213+00:00", "event": "performance_sample", "payload": {"cpu_percent": 29.6, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:02.861616+00:00", "event": "performance_sample", "payload": {"cpu_percent": 34.6, "memory_percent": 85.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:04.630791+00:00", "event": "system_tool_open_blocked", "payload": {"tool": "device_manager"}}
+{"timestamp": "2026-07-01T11:48:06.744346+00:00", "event": "performance_sample", "payload": {"cpu_percent": 22.1, "memory_percent": 86.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:12.043654+00:00", "event": "performance_sample", "payload": {"cpu_percent": 0.0, "memory_percent": 86.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:15.598411+00:00", "event": "performance_sample", "payload": {"cpu_percent": 59.3, "memory_percent": 86.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:18.042287+00:00", "event": "system_tool_open_blocked", "payload": {"tool": "installed_apps"}}
+{"timestamp": "2026-07-01T11:48:19.172871+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.0, "memory_percent": 86.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:24.671057+00:00", "event": "performance_sample", "payload": {"cpu_percent": 22.7, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:25.406696+00:00", "event": "relaunch_as_admin", "payload": {}}
+{"timestamp": "2026-07-01T11:48:31.610758+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.9, "memory_percent": 87.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:34.373288+00:00", "event": "health_scan_background_started", "payload": {"reason": "no_cache"}}
+{"timestamp": "2026-07-01T11:48:34.806541+00:00", "event": "performance_sample", "payload": {"cpu_percent": 50.0, "memory_percent": 87.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:43.216683+00:00", "event": "health_scan_quick_returned", "payload": {"reason": "no_cache"}}
+{"timestamp": "2026-07-01T11:48:44.640253+00:00", "event": "performance_sample", "payload": {"cpu_percent": 57.4, "memory_percent": 91.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:47.357513+00:00", "event": "performance_sample", "payload": {"cpu_percent": 24.0, "memory_percent": 92.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:48.475443+00:00", "event": "performance_sample", "payload": {"cpu_percent": 51.7, "memory_percent": 92.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:51.331972+00:00", "event": "performance_sample", "payload": {"cpu_percent": 42.5, "memory_percent": 88.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:53.965719+00:00", "event": "performance_sample", "payload": {"cpu_percent": 61.8, "memory_percent": 86.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:56.740605+00:00", "event": "performance_sample", "payload": {"cpu_percent": 52.4, "memory_percent": 87.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:48:59.520581+00:00", "event": "performance_sample", "payload": {"cpu_percent": 36.2, "memory_percent": 86.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:02.178553+00:00", "event": "performance_sample", "payload": {"cpu_percent": 65.1, "memory_percent": 86.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:05.218131+00:00", "event": "performance_sample", "payload": {"cpu_percent": 48.2, "memory_percent": 88.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:08.716788+00:00", "event": "performance_sample", "payload": {"cpu_percent": 14.7, "memory_percent": 87.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:12.899118+00:00", "event": "performance_sample", "payload": {"cpu_percent": 40.5, "memory_percent": 87.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:16.671467+00:00", "event": "performance_sample", "payload": {"cpu_percent": 40.0, "memory_percent": 88.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:17.444713+00:00", "event": "health_scan", "payload": {"recommendation_count": 21, "disk_count": 2, "folder_count": 3, "health_score": 100, "elapsed_ms": 43099}}
+{"timestamp": "2026-07-01T11:49:21.018196+00:00", "event": "performance_sample", "payload": {"cpu_percent": 44.4, "memory_percent": 88.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:24.928729+00:00", "event": "performance_sample", "payload": {"cpu_percent": 4.1, "memory_percent": 88.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:25.197017+00:00", "event": "file_revealed", "payload": {"target": "C:\\Users\\vikas\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache", "mode": "folder"}}
+{"timestamp": "2026-07-01T11:49:29.086285+00:00", "event": "performance_sample", "payload": {"cpu_percent": 26.2, "memory_percent": 91.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:32.862785+00:00", "event": "performance_sample", "payload": {"cpu_percent": 1.2, "memory_percent": 91.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:36.705507+00:00", "event": "performance_sample", "payload": {"cpu_percent": 27.5, "memory_percent": 90.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:40.960462+00:00", "event": "performance_sample", "payload": {"cpu_percent": 21.2, "memory_percent": 91.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:44.989799+00:00", "event": "performance_sample", "payload": {"cpu_percent": 7.5, "memory_percent": 91.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:48.825817+00:00", "event": "performance_sample", "payload": {"cpu_percent": 30.6, "memory_percent": 90.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:52.856666+00:00", "event": "performance_sample", "payload": {"cpu_percent": 48.0, "memory_percent": 90.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:49:55.534756+00:00", "event": "system_tool_opened", "payload": {"tool": "device_manager"}}
+{"timestamp": "2026-07-01T11:49:57.218926+00:00", "event": "performance_sample", "payload": {"cpu_percent": 53.8, "memory_percent": 91.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:01.073284+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.5, "memory_percent": 91.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:04.915147+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.2, "memory_percent": 91.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:08.500548+00:00", "event": "file_revealed", "payload": {"target": "C:\\Users\\vikas\\OneDrive\\Documents\\LaptopHealthAgent\\data\\battery-report.html", "mode": "select"}}
+{"timestamp": "2026-07-01T11:50:09.132100+00:00", "event": "performance_sample", "payload": {"cpu_percent": 35.0, "memory_percent": 90.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:12.750356+00:00", "event": "performance_sample", "payload": {"cpu_percent": 34.1, "memory_percent": 94.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:17.098023+00:00", "event": "performance_sample", "payload": {"cpu_percent": 40.0, "memory_percent": 88.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:19.777268+00:00", "event": "system_tool_opened", "payload": {"tool": "installed_apps"}}
+{"timestamp": "2026-07-01T11:50:21.438052+00:00", "event": "performance_sample", "payload": {"cpu_percent": 65.0, "memory_percent": 88.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:25.075844+00:00", "event": "performance_sample", "payload": {"cpu_percent": 55.4, "memory_percent": 93.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:28.827399+00:00", "event": "performance_sample", "payload": {"cpu_percent": 13.3, "memory_percent": 92.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:32.838702+00:00", "event": "performance_sample", "payload": {"cpu_percent": 7.7, "memory_percent": 92.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:36.887678+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.7, "memory_percent": 93.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:41.312629+00:00", "event": "performance_sample", "payload": {"cpu_percent": 25.3, "memory_percent": 91.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:44.804176+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.5, "memory_percent": 89.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:48.819336+00:00", "event": "performance_sample", "payload": {"cpu_percent": 13.8, "memory_percent": 88.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:52.902223+00:00", "event": "performance_sample", "payload": {"cpu_percent": 34.7, "memory_percent": 88.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:50:56.836020+00:00", "event": "performance_sample", "payload": {"cpu_percent": 23.8, "memory_percent": 88.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:00.705444+00:00", "event": "performance_sample", "payload": {"cpu_percent": 8.8, "memory_percent": 91.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:04.828815+00:00", "event": "performance_sample", "payload": {"cpu_percent": 36.0, "memory_percent": 91.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:08.665773+00:00", "event": "performance_sample", "payload": {"cpu_percent": 8.1, "memory_percent": 90.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:12.670999+00:00", "event": "performance_sample", "payload": {"cpu_percent": 25.3, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:16.764397+00:00", "event": "performance_sample", "payload": {"cpu_percent": 32.9, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:20.802150+00:00", "event": "performance_sample", "payload": {"cpu_percent": 7.5, "memory_percent": 87.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:24.747175+00:00", "event": "performance_sample", "payload": {"cpu_percent": 24.7, "memory_percent": 86.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:28.803481+00:00", "event": "performance_sample", "payload": {"cpu_percent": 26.2, "memory_percent": 87.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:32.858291+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.7, "memory_percent": 86.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:36.788238+00:00", "event": "performance_sample", "payload": {"cpu_percent": 41.2, "memory_percent": 86.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:40.585225+00:00", "event": "performance_sample", "payload": {"cpu_percent": 18.8, "memory_percent": 87.1, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:44.691808+00:00", "event": "performance_sample", "payload": {"cpu_percent": 28.7, "memory_percent": 87.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:48.695129+00:00", "event": "performance_sample", "payload": {"cpu_percent": 8.8, "memory_percent": 87.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:52.693632+00:00", "event": "performance_sample", "payload": {"cpu_percent": 52.5, "memory_percent": 87.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:51:56.705697+00:00", "event": "performance_sample", "payload": {"cpu_percent": 33.3, "memory_percent": 87.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:00.805436+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.5, "memory_percent": 88.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:04.840333+00:00", "event": "performance_sample", "payload": {"cpu_percent": 37.0, "memory_percent": 85.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:08.693720+00:00", "event": "performance_sample", "payload": {"cpu_percent": 13.4, "memory_percent": 86.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:12.703337+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.0, "memory_percent": 87.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:16.827501+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.7, "memory_percent": 88.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:20.610469+00:00", "event": "performance_sample", "payload": {"cpu_percent": 39.5, "memory_percent": 88.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:24.410320+00:00", "event": "performance_sample", "payload": {"cpu_percent": 12.3, "memory_percent": 89.2, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:28.805427+00:00", "event": "performance_sample", "payload": {"cpu_percent": 25.0, "memory_percent": 89.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:32.663451+00:00", "event": "performance_sample", "payload": {"cpu_percent": 2.5, "memory_percent": 89.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:36.835652+00:00", "event": "performance_sample", "payload": {"cpu_percent": 41.5, "memory_percent": 89.9, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:41.593842+00:00", "event": "performance_sample", "payload": {"cpu_percent": 28.7, "memory_percent": 90.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:45.093888+00:00", "event": "performance_sample", "payload": {"cpu_percent": 60.0, "memory_percent": 89.7, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:49.188207+00:00", "event": "performance_sample", "payload": {"cpu_percent": 18.8, "memory_percent": 90.0, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:53.386005+00:00", "event": "performance_sample", "payload": {"cpu_percent": 16.7, "memory_percent": 90.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:52:57.313658+00:00", "event": "performance_sample", "payload": {"cpu_percent": 62.5, "memory_percent": 87.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:53:01.426187+00:00", "event": "performance_sample", "payload": {"cpu_percent": 43.8, "memory_percent": 88.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:53:05.062694+00:00", "event": "performance_sample", "payload": {"cpu_percent": 65.0, "memory_percent": 87.6, "process_count": 15}}
+{"timestamp": "2026-07-01T11:53:09.127558+00:00", "event": "performance_sample", "payload": {"cpu_percent": 70.0, "memory_percent": 87.8, "process_count": 15}}
+{"timestamp": "2026-07-01T11:53:13.114526+00:00", "event": "performance_sample", "payload": {"cpu_percent": 55.6, "memory_percent": 87.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:53:49.722689+00:00", "event": "performance_sample", "payload": {"cpu_percent": 63.0, "memory_percent": 88.5, "process_count": 15}}
+{"timestamp": "2026-07-01T11:54:48.221461+00:00", "event": "performance_sample", "payload": {"cpu_percent": 17.5, "memory_percent": 89.3, "process_count": 15}}
+{"timestamp": "2026-07-01T11:57:27.060286+00:00", "event": "performance_sample", "payload": {"cpu_percent": 57.5, "memory_percent": 89.4, "process_count": 15}}
+{"timestamp": "2026-07-01T11:57:29.932558+00:00", "event": "performance_sample", "payload": {"cpu_percent": 67.1, "memory_percent": 90.5, "process_count": 15}}
