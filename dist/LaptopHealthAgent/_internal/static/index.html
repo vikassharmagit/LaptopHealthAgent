@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Laptop Health & Management Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body class="light-theme">
+    <div class="app-container">
+      <!-- Sidebar Navigation -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <div class="app-logo">💻</div>
+          <h2>Health Assistant</h2>
+        </div>
+        <nav class="sidebar-nav">
+          <button class="nav-item active" data-tab="dashboard">
+            <span class="icon">📊</span> Overview
+          </button>
+          <button class="nav-item" data-tab="storage">
+            <span class="icon">💾</span> Storage Analyzer
+          </button>
+          <button class="nav-item" data-tab="performance">
+            <span class="icon">⚡</span> Performance
+          </button>
+          <button class="nav-item" data-tab="diagnostics">
+            <span class="icon">🛠️</span> Diagnostics
+          </button>
+          <button class="nav-item" data-tab="security">
+            <span class="icon">🛡️</span> Security & Network
+          </button>
+          <button class="nav-item" data-tab="ai-chat">
+            <span class="icon">🤖</span> AI Assistant
+          </button>
+          <button class="nav-item" data-tab="history">
+            <span class="icon">📈</span> Trends & Reports
+          </button>
+        </nav>
+        <div class="sidebar-footer">
+          <button id="theme-toggle" class="icon-btn" title="Toggle Theme">🌓</button>
+          <button id="scan-btn" class="primary-btn">Scan Now</button>
+        </div>
+      </aside>
+
+      <!-- Main Content Area -->
+      <main class="main-content">
+        <!-- Top Title Bar -->
+        <header class="content-header">
+          <div>
+            <h1 id="tab-title">Overview</h1>
+            <p id="last-scan">Waiting for first scan...</p>
+          </div>
+          <div class="header-widgets">
+            <div class="score-widget">
+              <span class="score-label">Health Score</span>
+              <div class="score-circle-container">
+                <svg class="score-ring" width="60" height="60">
+                  <circle class="score-ring-bg" cx="30" cy="30" r="25" />
+                  <circle id="score-ring-fill" class="score-ring-fill" cx="30" cy="30" r="25" />
+                </svg>
+                <div id="score-text" class="score-value">--</div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Tab content container -->
+        <div class="tab-content-container">
+          
+          <!-- TAB 1: OVERVIEW -->
+          <section id="tab-dashboard" class="tab-panel active">
+            <div class="quick-status-grid">
+              <div class="status-card" data-ref="storage" role="button" tabindex="0" title="Open System About">
+                <span class="card-icon">💾</span>
+                <h3>Storage</h3>
+                <div class="status-indicator success">Healthy</div>
+                <p id="overview-storage-desc">-- free of --</p>
+              </div>
+              <div class="status-card" data-ref="performance" role="button" tabindex="0" title="Open Task Manager">
+                <span class="card-icon">⚡</span>
+                <h3>Performance</h3>
+                <div class="status-indicator warning">CPU High</div>
+                <p id="overview-performance-desc">CPU -- | RAM --</p>
+              </div>
+              <div class="status-card" data-ref="battery" role="button" tabindex="0" title="Open Power & Battery settings">
+                <span class="card-icon">🔋</span>
+                <h3>Battery</h3>
+                <div class="status-indicator success">--%</div>
+                <p id="overview-battery-desc">Health: --%</p>
+              </div>
+              <div class="status-card" data-ref="security" role="button" tabindex="0" title="Open Windows Security">
+                <span class="card-icon">🛡️</span>
+                <h3>Security</h3>
+                <div class="status-indicator success">Protected</div>
+                <p id="overview-security-desc">Core protection active</p>
+              </div>
+            </div>
+
+            <div class="dashboard-split">
+              <!-- Left side: Recommendations -->
+              <div class="split-left">
+                <h2>Recommended Actions</h2>
+                <div id="recommendations-container" class="recommendations-list">
+                  <div class="empty-state">
+                    <p>No issues detected. Run a scan to fetch recommendations.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Right side: Recent Log -->
+              <div class="split-right">
+                <h2>Activity Log</h2>
+                <div class="log-panel">
+                  <div id="log-entries"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 2: STORAGE ANALYZER -->
+          <section id="tab-storage" class="tab-panel">
+            <div class="storage-stats-container">
+              <div class="card storage-card">
+                <h3>Disk Capacity</h3>
+                <div id="disks-container"></div>
+              </div>
+              <div class="card cleanups-card">
+                <h3>Quick Storage Fixes</h3>
+                <div class="cleanup-row">
+                  <div>
+                    <strong>Temporary System Cache</strong>
+                    <p id="temp-size-text">Calculating...</p>
+                  </div>
+                  <button id="clean-temp-btn" class="action-btn secondary">Clean</button>
+                </div>
+                <div class="cleanup-row">
+                  <div>
+                    <strong>Recycle Bin</strong>
+                    <p id="recycle-size-text">Calculating...</p>
+                  </div>
+                  <button id="empty-recycle-btn" class="action-btn secondary">Empty</button>
+                </div>
+                <div class="cleanup-row">
+                  <div>
+                    <strong>Downloads Directory</strong>
+                    <p id="downloads-size-text">Calculating...</p>
+                  </div>
+                  <span class="badge info">Review in Recommendations</span>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <h3>Folders Overview</h3>
+              <div id="folders-container" class="grid-2"></div>
+            </div>
+          </section>
+
+          <!-- TAB 3: PERFORMANCE OPTIMIZER -->
+          <section id="tab-performance" class="tab-panel">
+            <div class="metrics-dashboard">
+              <div class="card">
+                <h3>Live Utilization</h3>
+                <div class="utilization-bars">
+                  <div class="util-row">
+                    <span>CPU Load</span>
+                    <div class="progress-bar-container"><span id="cpu-bar" style="width: 0%"></span></div>
+                    <strong id="cpu-text">0%</strong>
+                  </div>
+                  <div class="util-row">
+                    <span>RAM Load</span>
+                    <div class="progress-bar-container"><span id="ram-bar" style="width: 0%"></span></div>
+                    <strong id="ram-text">0%</strong>
+                  </div>
+                  <div class="util-row">
+                    <span>GPU Load</span>
+                    <div class="progress-bar-container"><span id="gpu-bar" style="width: 0%"></span></div>
+                    <strong id="gpu-text">0%</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="performance-side-stack">
+                <div class="card">
+                  <h3>Port Task Lookup</h3>
+                  <p class="section-desc">Find which task is using a local port and stop it after confirmation.</p>
+                  <form id="port-lookup-form" class="port-lookup-form">
+                    <input id="port-lookup-input" type="number" min="1" max="65535" inputmode="numeric" placeholder="Enter port, e.g. 3000" />
+                    <button id="port-lookup-btn" class="action-btn primary" type="submit">Search</button>
+                  </form>
+                  <div id="port-lookup-results" class="port-lookup-results">
+                    <div class="empty-state compact">Enter a port number to search.</div>
+                  </div>
+                </div>
+                <div class="card">
+                  <h3>Startup Management</h3>
+                  <p class="section-desc">These programs launch automatically during Windows boot, which can slow down startup times.</p>
+                  <div id="startup-apps-container" class="startup-list">
+                    <div class="empty-state">No startup entries found.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <h3>Top Resource Processes</h3>
+              <div class="process-table-container">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Process Name</th>
+                      <th>PID</th>
+                      <th>CPU Usage</th>
+                      <th>RAM RSS</th>
+                      <th>Status</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="processes-table-body">
+                    <tr>
+                      <td colspan="6" class="text-center">No processes loaded.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 4: DIAGNOSTICS & BATTERY -->
+          <section id="tab-diagnostics" class="tab-panel">
+            <div class="grid-2">
+              <div class="card">
+                <h3>Battery Diagnostic Health</h3>
+                <div class="battery-metric-row">
+                  <div class="battery-gauge-container">
+                    <div class="battery-percentage-text" id="bat-diag-pct">--%</div>
+                    <p>Current Charge</p>
+                  </div>
+                  <div class="battery-details-list">
+                    <div class="detail-item">
+                      <span>Battery Health Status</span>
+                      <strong id="bat-health-text">--%</strong>
+                    </div>
+                    <div class="detail-item">
+                      <span>Designed Capacity</span>
+                      <strong id="bat-design-cap">-- mWh</strong>
+                    </div>
+                    <div class="detail-item">
+                      <span>Full Charge Capacity</span>
+                      <strong id="bat-full-cap">-- mWh</strong>
+                    </div>
+                    <div class="detail-item">
+                      <span>Remaining Runtime</span>
+                      <strong id="bat-remaining-time">--</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <h3>Hardware Components</h3>
+                <div id="hardware-diagnostics-list" class="hardware-list">
+                  <div class="hw-item">
+                    <span>SSD SMART Status</span>
+                    <strong id="hw-ssd-smart" class="status-indicator">OK</strong>
+                  </div>
+                  <div class="hw-item">
+                    <span>Boot Time Duration</span>
+                    <strong id="hw-boot-time">-- secs</strong>
+                  </div>
+                  <div class="hw-item flex-col">
+                    <span>Connected Device Failures</span>
+                    <div id="hw-device-failures" class="failed-list mt-2">None</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 5: SECURITY & NETWORK -->
+          <section id="tab-security" class="tab-panel">
+            <div class="grid-2">
+              <!-- Security Center -->
+              <div class="card">
+                <h3>Windows Security Shield</h3>
+                <div class="security-status-list">
+                  <div class="security-item">
+                    <div>
+                      <strong>Windows Defender Protection</strong>
+                      <p>Active real-time file monitoring</p>
+                    </div>
+                    <span id="sec-defender-badge" class="badge">--</span>
+                  </div>
+                  <div class="security-item">
+                    <div>
+                      <strong>Network Firewall</strong>
+                      <p>Blocks unauthorized inbound traffic</p>
+                    </div>
+                    <span id="sec-firewall-badge" class="badge">--</span>
+                  </div>
+                  <div class="security-item">
+                    <div>
+                      <strong>BitLocker Drive Encryption</strong>
+                      <p>Protects drive volumes from data theft</p>
+                    </div>
+                    <span id="sec-bitlocker-badge" class="badge">--</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Network Center -->
+              <div class="card">
+                <h3>Network Health</h3>
+                <div class="network-stats">
+                  <div class="net-row">
+                    <span>Internet Latency</span>
+                    <strong id="net-ping">-- ms</strong>
+                  </div>
+                  <div class="net-row">
+                    <span>Active Adapter</span>
+                    <strong id="net-adapter">--</strong>
+                  </div>
+                </div>
+                <div class="network-actions mt-4">
+                  <h4>Diagnostic Network Fixes</h4>
+                  <div class="cleanup-row mt-2">
+                    <div>
+                      <strong>DNS Resolution Cache</strong>
+                      <p>Flush resolver cache to fix routing issues</p>
+                    </div>
+                    <button id="flush-dns-btn" class="action-btn secondary">Flush</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 6: AI ASSISTANT -->
+          <section id="tab-ai-chat" class="tab-panel">
+            <div class="ai-chat-layout">
+              <div class="ai-welcome-card">
+                <h3>Ask Laptop Health Assistant</h3>
+                <p>Get instant answers about battery drain, storage shortage, and process recommendations.</p>
+                <div class="quick-queries">
+                  <button class="query-chip">Why is my laptop slow?</button>
+                  <button class="query-chip">Can I delete temporary files?</button>
+                  <button class="query-chip">What is my battery health status?</button>
+                </div>
+              </div>
+              <div class="chat-container">
+                <div id="chat-messages" class="chat-messages-box">
+                  <div class="message assistant">
+                    Hi! I am your Laptop Health Assistant. Ask me anything about your laptop state, or click one of the quick suggestions above.
+                  </div>
+                </div>
+                <form id="chat-form" class="chat-input-bar">
+                  <input id="chat-input" type="text" placeholder="Type your query here..." required autocomplete="off" />
+                  <button type="submit" class="primary-btn">Send</button>
+                </form>
+              </div>
+            </div>
+          </section>
+
+          <!-- TAB 7: REPORTS & HISTORY -->
+          <section id="tab-history" class="tab-panel">
+            <div class="grid-2">
+              <div class="card">
+                <h3>Historical Health Score</h3>
+                <div class="chart-wrapper">
+                  <canvas id="healthChart"></canvas>
+                </div>
+              </div>
+              <div class="card">
+                <h3>System Telemetry Trends</h3>
+                <div class="chart-wrapper">
+                  <canvas id="perfChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <h3>Export Report Reports</h3>
+              <p>Download your historical scans as a CSV spreadsheet for IT auditing or diagnostics logging.</p>
+              <div class="mt-4">
+                <a href="/api/reports/csv" download class="primary-btn display-inline-block">Export CSV History</a>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </main>
+    </div>
+    
+    <script src="/static/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "MicrosoftCopilotAutoLaunch_1CA8D2E8FBAF5B7CC61DA09D5F994E5C",
+    "command": "\"C:\\Program Files (x86)\\Microsoft\\Copilot\\Application\\mscopilot.exe\" --no-startup-window --win-session-start",
+    "scope": "HKCU",
+    "key_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+  },
+  {
+    "name": "Teams",
+    "command": "\"C:\\Users\\vikas\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe\" msteams:system-initiated",
+    "scope": "HKCU",
+    "key_path": "Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+  }
+]
