@@ -1,0 +1,25 @@
+on:
+  pull_request:
+    branches: [ main ]
+    types: [ opened, synchronize, reopened ]
+  release:
+    types: [ published ]
+
+jobs:
+  # 2. Continuous Integration (CI) Job: Runs on Pull Requests and Releases
+  continuous-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js (Example Environment)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Linters & Tests
+        run: npm test
