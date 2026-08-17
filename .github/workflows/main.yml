@@ -4,6 +4,13 @@ on:
     types: [ opened, synchronize, reopened ]
   release:
     types: [ published ]
+    
+  workflow_dispatch:
+  pull_request:
+    branches: [ main ]
+    types: [ opened, synchronize, reopened ]
+  release:
+    types: [ published ]
 
 jobs:
   # 2. Continuous Integration (CI) Job: Runs on Pull Requests and Releases
